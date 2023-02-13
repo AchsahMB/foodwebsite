@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f2f2f2;
+    background-color: rgb(53, 49, 49);
+    background-blend-mode: lighten;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height:80px;
+    
+   }
+   .row h1{
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+   }
+   .navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+   }
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    /* another effect */
+    transition: 1.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.navbar .orders{
+    padding: 8px;
+    background-color: orangered;
+}
+.search input
+{
+    width: 250px;
+    height: 30px;
+}
+.search .button{
+    padding: 8px;
+    background-color: rgb(40, 65, 204);
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+.bgimage
+{
+    background-image: url('https://media.istockphoto.com/id/507212121/photo/healthy-food-background.jpg?s=612x612&w=is&k=20&c=ma0ci81sIqV4PGFN0oOR7g7Y-MvZZG6vJKcWbKvim1o=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery{
+    
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* margin: 50px 0; */
+        margin:15px 15px 15px 15px;
+        justify-content:space-evenly;
+    
+}
+.content{
+    width: 200px;
+    height: 500px;
+    background-color: blueviolet;
+    margin: 10px;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 80px;
+    margin-left: 60px;
+    /* opacity: 0.5; */
+    border-radius: 25px;
+
+}
+
+img{
+    width: 160px;
+    height: 150px;
+   padding-left: 20px;
+}
+.fa{
+    font-size: 26px;
+    transition: 4s;
+    margin: 5px;
+    padding:10px;
+
+
+}
